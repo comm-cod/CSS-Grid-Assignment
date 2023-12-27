@@ -1,0 +1,8 @@
+differnce between grid-auto-row and grid-auto-column:-
+   
+     grid-auto-column
+      The grid-auto-columns property sets a size for the columns in a grid container. This property affects only columns with the size not set.
+    
+    
+    grid-auto-row
+      The grid-auto-rows property specifies the size of the grid rows that were created without having an explicit size. In other words, this property sets the size of implicit rows and any other rows that have not been explicitly sized in the grid-template-rows property.

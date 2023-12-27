@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>answer5</title>
+  <style>
+    .container {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      justify-items:center; 
+    }
+    .container>div {
+      background-color: bisque;
+      padding: 5px;
+      border: 2px solid;
+    }
+
+
+  </style>
+</head>
+<body>
+  <h3>Difference between justify-items and justify-self</h3>
+  <p>justify-items is used on a grid container and is used to determine how grid items are spread out along a row by setting the default justify-self property for all child boxes. justify-self is used to set how an individual grid item positions itself along the row/inline axis.</p>
+  <div class="container">
+    <div class="box1">Box 1</div>
+    <div class="box2">Box 2</div>
+    <div class="box3">Box 3</div>
+    <div class="box4">Box 4</div>
+    <div class="box5">Box 5</div>
+    <div class="box6">Box 6</div>
+    </div>
+</body>
+</html>
